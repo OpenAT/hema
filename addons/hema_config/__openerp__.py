@@ -21,7 +21,9 @@ Customer configuration for the instance hema
     'depends': [
         'fsonline',
     ],
-    'data': [],
+    'data': [
+        'views/templates.xml',
+    ],
 }
 
     
