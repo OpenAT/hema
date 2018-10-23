@@ -25,5 +25,3 @@ Customer configuration for the instance hema
         'views/templates.xml',
     ],
 }
-
-    

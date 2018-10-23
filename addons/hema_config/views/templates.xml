@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
     <data>
-
     <!-- CUSTOM BOOTSTRAP THEME FOR hema -->
     <!-- HINT: http://getbootstrap.com/customize -->
     <template id="hema_theme_option" inherit_id="website.themes" name="hema theme option">
@@ -9,8 +8,7 @@
             <div class="col-md-4">
                 <div class="well text-center">
                     <div class="image">
-                        <img class="img-responsive" src="/hema_config/static/src/img/hema_theme_thumbnail.png"
-                             alt="HEMA"/>
+                        <img class="img-responsive" src="/hema_config/static/img/hema_theme_thumbnail.jpg" alt="HEMA"/>
                     </div>
                     <div class="options">
                         <h3>HEMA</h3>
@@ -29,8 +27,10 @@
             <link rel='stylesheet' href='/hema_config/static/src/css/bootstrap_hema/css/bootstrap.min.css' t-ignore="true"/>
             <link rel='stylesheet' href='/hema_config/static/src/css/bootstrap_hema/css/bootstrap-theme.min.css' t-ignore="true"/>
 -->
+            <link rel='stylesheet' href='/hema_config/static/src/css/bootstrap_hema/css/bootstrap.min.css' t-ignore="true"/>
+            <link rel='stylesheet' href='/hema_config/static/src/css/bootstrap_hema/css/bootstrap-theme.min.css' t-ignore="true"/>
+            <link rel='stylesheet' href='/hema_config/static/src/css/bootstrap_hema/general_basic_corrections.css' t-ignore="true"/>
             <link rel='stylesheet' href='/hema_config/static/src/css/hema.css' t-ignore="true"/>
-<!--            <script type="text/javascript" src="/hema_config/static/src/js/textreplace.js"/>-->
         </xpath>
     </template>
     <!-- Load custom  JS for the website -->
@@ -49,6 +49,5 @@
         </xpath>
     </template>
     -->
-
     </data>
 </openerp>

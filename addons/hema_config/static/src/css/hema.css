@@ -1,0 +1,60 @@
+header {
+    display: none !important;
+}
+
+/* OPC */
+body {
+    background-color: transparent;
+}
+.form-control {
+    background-color: #9e9c8f;
+    border: 1px solid #9E9E9E;
+    border-radius: 0px;
+}
+#wsd-checkout-box .input-group-addon {
+        border-radius: 0px;
+    }
+#wsd_checkout_form .btn-lg {
+    border-radius: 0px;
+}
+.ppt_opc .price_donate {
+    margin-top: 15px;
+}
+
+.form-control:focus {
+    border-color: #d3d3d3;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(156, 156, 156, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(156, 156, 156, 0.6);
+}
+#wsd_checkout_form .form-control-feedback {
+    top: 2px !important;
+}
+#price_donate {
+    color: black;
+}
+#wsd-checkout-box > div > div > div {
+    display: none;
+}
+
+/* IFRAME MODAL BOX BEHAVIOR BEGIN */
+
+.modal-body {
+    max-height: calc(100vh - 225px);
+    overflow-y: auto;
+
+    /* cover the modal */
+    position: fixed;
+    top: 20%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    /* spacing as needed */
+    padding: 20px 50px 20px 20px;
+
+    /* let it scroll */
+    overflow: auto;
+}
+
+/* IFRAME MODAL BOX BEHAVIOR END */
