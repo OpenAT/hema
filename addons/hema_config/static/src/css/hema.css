@@ -5,8 +5,8 @@ header {
 }
 */
 /* OPC */
-body #wsd_checkout_form {
-    background-color: transparent;
+body {
+    background-color: #e6e6e3;
 }
 #wsd_checkout_form .form-control {
     background-color: #9e9c8f;
